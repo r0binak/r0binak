@@ -3,7 +3,7 @@
 ### 👨🏻‍💻 About me
 
 - 🔭 Kubernetes observability and security
-- 🎓 I'm currently studying Information Security at the Saint Petersburg State University of Aerospace Instrumentation
+- 🎓 InfoSec student
 - 💡  I like to explore new technologies and develop software solutions and quick hacks
 
 ### ⚙️ Github Analytics
