@@ -1,16 +1,13 @@
-### Hi there 👋
+### r0binak's Repos
 
-<!--
-**r0binak/r0binak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hi! My name is Sergei 👋
 
-Here are some ideas to get you started:
+I'm a DevSecOps & Container Security engineer who's generally into containers 📦, Kubernetes ☸️, Cloud Native ☁️, Go  and pentesting 🧑🏻‍💻. Most of my repos will relate to one or more of those.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Possible repos of interest that I've been working on recently :
+
+- [MTKPI](https://github.com/r0binak/MTKPI) 🧰 Multi Tool Kubernetes Pentest Image
+
+I am also the editor of the largest telegram channel dedicated to Kubernetes security – [k8security](https://t.me/k8security)
+
+📫 You can find me on my [Linkedin](https://www.linkedin.com/in/r0binak/)
