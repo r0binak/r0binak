@@ -1,15 +1,22 @@
-### r0binak's Repos
+<h2>About me</h2>
 
-Hi! My name is Sergey 👋
+```Python
+class DevSecOps:
+    def __init__(self):
+        self.name = "Sergey Kanibor"
+        self.linkedin = "https://www.linkedin.com/in/r0binak/"
+        self.email = "r081n4k@gmail.com"
+        self.area = "Cloud & Container security, Pentest Web, Infra, Bug Hunter"
 
-I'm a DevSecOps & Container Security engineer who's generally into containers 📦, Kubernetes ☸️, Cloud Native ☁️, Go  and pentesting 🧑🏻‍💻. Most of my repos will relate to one or more of those.
+if __name__ == "__main__":
+    r0binak = DevSecOps()
+```
 
-Possible repos of interest that I've been working on recently :
+<h2> Github Stats </h2>
 
-- [MTKPI](https://github.com/r0binak/MTKPI) 🧰 Multi Tool Kubernetes Pentest Image
-
-I am also the editor of the largest telegram channel dedicated to Kubernetes security – [k8security](https://t.me/k8security)
-
-My BugBounty profile – [BI.ZONE Bug Bounty](https://app.bugbounty.bi.zone/profile/r0binak/hackactivity)
-
-📫 You can find me on my [Linkedin](https://www.linkedin.com/in/r0binak/)
+<div align="center">
+  <a href="https://github.com/r0binak">
+  <img width="36%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=r0binak&layout=compact&theme=tokyonight"/>
+  <img width="43%" src="https://github-readme-stats.vercel.app/api?username=r0binak&show_icons=true&theme=tokyonight"/>
+</div>
+<!--<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00009C&height=120&section=footer"/>-->
