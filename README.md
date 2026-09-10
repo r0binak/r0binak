@@ -1,13 +1,14 @@
 <!--
   GitHub profile README for Sergey “r0binak” Kanibor.
   Theme: dark / red / hackerish, GitHub-safe HTML + Markdown.
+  Focus: kubernetes security / cloud security / container security.
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:050505,45:111111,100:e11d2e&text=Sergey%20%E2%80%9Cr0binak%E2%80%9D%20Kanibor&fontColor=f6f6f6&fontSize=36&fontAlignY=35&desc=application%20security%20%E2%80%A2%20offensive%20research%20%E2%80%A2%20cloud%20secuirty&descAlignY=55&descSize=15&animation=fadeIn" alt="Sergey r0binak Kanibor — application security, offensive research, cloud & containers" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:050505,45:111111,100:e11d2e&text=Sergey%20%E2%80%9Cr0binak%E2%80%9D%20Kanibor&fontColor=f6f6f6&fontSize=36&fontAlignY=35&desc=kubernetes%20security%20%E2%80%A2%20cloud%20security%20%E2%80%A2%20container%20security&descAlignY=55&descSize=15&animation=fadeIn" alt="Sergey r0binak Kanibor — kubernetes security, cloud security, container security" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=3200&pause=900&color=FF2D2D&center=true&vCenter=true&width=850&lines=Breaking+systems+before+someone+else+does;Application+security+%2F+penetration+testing+%2F+security+architecture;Banking+%E2%80%A2+Fintech+%E2%80%A2+Enterprise+systems;Burp+%E2%80%A2+IDA+%E2%80%A2+nmap+%E2%80%A2+hex+editor+%E2%80%A2+coffee" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=3200&pause=900&color=FF2D2D&center=true&vCenter=true&width=850&lines=Breaking+clusters+before+someone+else+does;Kubernetes+security+%2F+cloud+security+%2F+container+security;Kubernetes+%E2%80%A2+Containers+%E2%80%A2+Cloud-native+platforms;kubectl+%E2%80%A2+Trivy+%E2%80%A2+Falco+%E2%80%A2+Burp+%E2%80%A2+nmap+%E2%80%A2+coffee" alt="Typing SVG" />
 
 <br />
 
@@ -22,15 +23,15 @@
 <h3>&gt; root@enterprise:~# whoami</h3>
 
 <p>
-I’m <b>Sergey “r0binak” Kanibor</b> — a cybersecurity engineer and tech lead focused on <b>application security</b>, <b>penetration testing</b>, and <b>cloud secruity</b>.
+I’m <b>Sergey “r0binak” Kanibor</b> — a cybersecurity engineer and tech lead focused on <b>kubernetes security</b>, <b>cloud security</b>, and <b>container security</b>.
 </p>
 
 <p>
-Most of my work is about helping companies understand how they can actually be hacked — and then making sure it is me who does it first.
+Most of my work is about helping companies understand how their clusters and cloud can actually be hacked — and then making sure it is me who does it first.
 </p>
 
 <p>
-My background sits somewhere between low-level development and offensive security: banking, fintech, AI platforms, Big4 consulting, ATMs, payment flows, cloud infrastructure, developer tooling, reverse engineering, SSDLC, threat modeling, and large-scale vulnerability assessments.
+My background sits at the intersection of cloud-native engineering and offensive security: Kubernetes, containers, service meshes, CI/CD pipelines, AWS / GCP / Azure infrastructure, admission control, supply-chain security, developer tooling, SSDLC, threat modeling, and large-scale vulnerability assessments.
 </p>
 
 </td>
@@ -41,7 +42,7 @@ My background sits somewhere between low-level development and offensive securit
 └──╼ ./profile --brief
 
 [+] role       : r&d / container security / tech lead
-[+] focus      : appsec, pentest, architecture
+[+] focus      : k8s, cloud, containers, pentest
 [+] mindset    : offensive, practical, result-first
 [+] output     : bugs, PoCs, tooling, risk maps, articles
 </pre>
@@ -58,23 +59,23 @@ My background sits somewhere between low-level development and offensive securit
 <tr>
 <td width="33%" valign="top">
 
-### 🔴 Application Security
+### ☸️ Kubernetes Security
 
-Web, API, mobile-adjacent and enterprise application security: from classic penetration testing to security reviews, SSDLC, threat modeling, and vulnerability management.
-
-</td>
-<td width="33%" valign="top">
-
-### 🏦 Banking & Fintech
-
-Financial applications, payment systems, ATMs, remote banking, fraud scenarios, business logic, integration flows, and the kind of bugs that do not look scary until money starts moving.
+Cluster security reviews, RBAC and admission control, pod security standards, network policies, and the kind of misconfigurations that look harmless until a pod starts talking to the metadata endpoint.
 
 </td>
 <td width="33%" valign="top">
 
-### 🧬 Offensive
+### ☁️ Cloud Security
 
-Reverse engineering, exploit research, infrastructure hardening, CTF/bug bounty background, weird protocol behavior, and occasional late-night experiments with things that should not parse like that.
+AWS / GCP / Azure security: IAM and privilege escalation paths, exposed control planes, storage and secrets hygiene, cloud-native detection gaps, and business logic that quietly grants far more access than intended.
+
+</td>
+<td width="33%" valign="top">
+
+### 📦 Container Security
+
+Image and supply-chain security, registry hygiene, container escapes, runtime hardening, CTF/bug bounty background, and occasional late-night experiments with things that should not break out like that.
 
 </td>
 </tr>
@@ -91,12 +92,11 @@ Reverse engineering, exploit research, infrastructure hardening, CTF/bug bounty 
   business-risk conversation that should have happened earlier.
 ```
 
-- Built and led security teams across banking, fintech, AI platforms, and consulting.
-- Worked with systems ranging from ATMs and payment environments to cloud infrastructure and developer tooling.
-- Still enjoy getting hands-on with Burp Suite, IDA, nmap, logs, traces, packet dumps, and a good hex editor.
+- Built and led security teams across cloud-native platforms, AI platforms, and consulting.
+- Worked with systems ranging from Kubernetes clusters and container registries to multi-cloud infrastructure and developer tooling.
+- Still enjoy getting hands-on with Burp Suite, kubectl, Trivy, Falco, nmap, logs, traces, packet dumps, and a good YAML linter.
 - Active around bug bounty and CTF culture, with a few Hall of Fame mentions along the way.
-- Publish tooling, PoCs, security notes, and experiments on GitHub and on the joint blog with d_x at [r0binak.io](https://r0binak.io/).
-- Occasionally comment in media on cybercrime, financial fraud, digital risks, and the practical side of defensive security.
+- Occasionally comment in media on cybercrime, cloud breaches, digital risks, and the practical side of defensive security.
 
 ---
 
@@ -104,9 +104,9 @@ Reverse engineering, exploit research, infrastructure hardening, CTF/bug bounty 
 
 ```text
 / research notes       / small security tools
-/ PoCs                 / infrastructure experiments
-/ 0-day,1-day          / sploits
-/ threat               / security architecture notes
+/ PoCs                 / cluster hardening guides
+/ 0-day,1-day          / container escape sploits
+/ threat models        / cloud & k8s architecture notes
 ```
 
 <div align="center">
@@ -141,11 +141,7 @@ result == "clear attack paths + business impact + prioritized fixes"
 
 <div align="center">
 
-<a href="https://linkedin.com/in/bserg"><img src="https://img.shields.io/badge/LinkedIn-0b0b0f?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=ff1e1e" alt="LinkedIn" /></a>
-<a href="https://twitter.com/r0binak_io"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-0b0b0f?style=for-the-badge&logo=x&logoColor=white&labelColor=ff1e1e" alt="X / Twitter" /></a>
-<a href="https://t.me/r0binak_ru"><img src="https://img.shields.io/badge/Telegram-0b0b0f?style=for-the-badge&logo=telegram&logoColor=white&labelColor=ff1e1e" alt="Telegram" /></a>
-<a href="https://www.instagram.com/r0binak_ru/"><img src="https://img.shields.io/badge/Instagram-0b0b0f?style=for-the-badge&logo=instagram&logoColor=white&labelColor=ff1e1e" alt="Instagram" /></a>
-<a href="https://r0binak.io/"><img src="https://img.shields.io/badge/Blog-0b0b0f?style=for-the-badge&logo=rss&logoColor=white&labelColor=ff1e1e" alt="Blog" /></a>
+<a href="https://linkedin.com/in/r0binak"><img src="https://img.shields.io/badge/LinkedIn-0b0b0f?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=ff1e1e" alt="LinkedIn" /></a>
 
 </div>
 
